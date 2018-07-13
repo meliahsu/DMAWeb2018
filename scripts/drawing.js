@@ -13,3 +13,5 @@ function draw() {
 	}
   ellipse(mouseX, mouseY, 10, 10);
 }
+/*Head: <script src="scripts/drawing.js"></script>
+Body: <div id="sketch-holder"></div>*/
