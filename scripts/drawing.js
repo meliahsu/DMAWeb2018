@@ -13,5 +13,8 @@ function draw() {
 	}
   ellipse(mouseX, mouseY, 10, 10);
 }
-/*Head: <script src="scripts/drawing.js"></script>
+/*Head: <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/addons/p5.dom.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/addons/p5.sound.min.js"></script>
+<script src="scripts/drawing.js"></script>
 Body: <div id="sketch-holder"></div>*/
