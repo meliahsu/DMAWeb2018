@@ -4,6 +4,11 @@ html, body {
   margin: 0;
   padding: 25px 50px 75px;
 }
-p {
-  color: red;
+h1, h2, h3, h4, h5, h6, p {
+  color: white;
+  font-family: 'Fredoka One', cursive;
+}
+div {
+  background-color: rgba(0,0,0,.6);
+  padding: 10px;
 }
