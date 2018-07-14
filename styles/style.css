@@ -8,6 +8,17 @@ h1, h2, h3, h4, h5, h6, tr, td, p {
   color: white;
   font-family: 'Fredoka One', cursive;
 }
+table {
+  width:100%;
+}
+table, th, td {
+    border-bottom: 1px solid rgba(255,255,255,.7);
+    border-collapse: collapse;
+    padding: 10px;
+}
+tr:hover {
+  background-color: rgba(0,0,0,.6);
+}
 body {
   background-color: rgba(0,0,0,.6);
   padding: 10px;
