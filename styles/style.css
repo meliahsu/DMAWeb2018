@@ -6,7 +6,7 @@ html {
 }
 h1, h2, h3, h4, h5, h6, tr, td, p {
   color: white;
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Poppins', sans-serif;
 }
 table {
   width:100%;
@@ -21,14 +21,14 @@ th {
   border-bottom: 3px solid rgba(255,255,255,.7);
   font-size: x-large;
 }
-td > a > img {
+td > a > img, td > a > iframe {
   height: 24px;
 }
 tr:hover {
-  background-color: rgba(0,0,0,.6);
+  background-color: rgba(0,0,0,.7);
 }
 body {
-  background-color: rgba(0,0,0,.6);
+  background-color: rgba(0,0,0,.7);
   padding: 10px;
 }
 a, a:link, a:visited, a:active, a:hover {
@@ -36,8 +36,15 @@ a, a:link, a:visited, a:active, a:hover {
 	color: inherit;
 	text-decoration: inherit;
 }
+/*zoom*/
+.zoom {
+    transition: all .2s ease-in-out; /* Animation */
+}
+.zoom:hover {
+    transform: scale(10); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 /*img shake*/
-img:hover {
+img:hover.shake {
     /* Start the shake animation and make the animation last for 0.5 seconds */
     animation: shake 0.5s;
     /* When the animation is finished, start again */
