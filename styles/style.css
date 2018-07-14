@@ -12,9 +12,12 @@ table {
   width:100%;
 }
 table, th, td {
-    border-bottom: 1px solid rgba(255,255,255,.7);
-    border-collapse: collapse;
-    padding: 10px;
+  border-bottom: 1px solid rgba(255,255,255,.7);
+  border-collapse: collapse;
+  padding: 10px;
+}
+th {
+  border-bottom: 3px solid rgba(255,255,255,.7);
 }
 tr:hover {
   background-color: rgba(0,0,0,.6);
