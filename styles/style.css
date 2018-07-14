@@ -1,6 +1,5 @@
 html {
-  cursor: url(images/cursor.cur), auto;
-  background-color: white;
+  background-image: url(images/background/max.jpg), url(images/background/milo.jpg), url(images/background/penny.jpg), url(images/background/zoltan.jpg), url(images/background/cleo.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   padding: 25px 50px 75px;
@@ -28,7 +27,7 @@ td > a > img, td > a > iframe {
 tr:hover {
   background-color: rgba(0,0,0,.7);
 }
-body {
+div {
   background-color: rgba(0,0,0,.7);
   padding: 10px;
 }
